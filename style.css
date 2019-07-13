@@ -1,0 +1,85 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+#wrapper {
+  min-height: 100%;
+  position: relative;
+}
+
+#header {
+  margin: 0;
+  background-color: #242b86;
+  border-style: solid
+}
+
+#topnav {
+  text-align: center;
+  margin: inherit;
+}
+
+#body {
+  margin: 0;
+  background-image: url(background.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+#videotable {
+  border-color: black;
+  margin-top: 100px;
+  border-style: solid;
+}
+
+#firstvideo {
+  width: 100%;
+  background-color: black;
+}
+
+#footernav {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  background-color: #242b86;
+  border-style: solid
+}
+
+nav ul li {
+  list-style-type: none;
+  width: 150px;
+  float: left;
+  border-right: 1px solid #000;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ecc337;
+  font-weight: bold;
+  display: block;
+}
+
+#footlink1 {
+  position: absolute;
+  width: 10%;
+}
+
+#footlink2 {
+  position: absolute;
+  width: 90%;
+}
+
+#UpperTable {
+  width: 100%;
+}
+
+#BodyLogo1 {
+  width: 100%;
+}
+
+#BodyLogo2 {
+  width: 50%;
+}
